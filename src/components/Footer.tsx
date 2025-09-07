@@ -24,20 +24,14 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:ben@varro.com.au" className="text-muted-foreground hover:text-foreground transition-colors">
-                  ben@varro.com.au
+                <a href="mailto:hello@varro.com.au" className="text-muted-foreground hover:text-foreground transition-colors">
+                  hello@varro.com.au
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Globe className="h-4 w-4 text-primary" />
                 <a href="https://www.varro.com.au" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
                   www.varro.com.au
-                </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Linkedin className="h-4 w-4 text-primary" />
-                <a href="https://linkedin.com/in/ben-naparstek" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
-                  linkedin.com/in/ben-naparstek
                 </a>
               </div>
             </div>
@@ -80,9 +74,9 @@ const Footer = () => {
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center text-muted-foreground text-sm">
           <div>© 2025 Varro Group. All rights reserved.</div>
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="mailto:ben@varro.com.au" className="hover:text-foreground transition-colors">Contact</a>
+            <a href="/privacy" className="hover:text-foreground transition-colors">Privacy</a>
+            <a href="/terms" className="hover:text-foreground transition-colors">Terms</a>
+            <a href="mailto:hello@varro.com.au" className="hover:text-foreground transition-colors">Contact</a>
           </div>
         </div>
       </div>

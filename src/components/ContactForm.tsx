@@ -85,16 +85,9 @@ const ContactForm = () => {
                   </div>
                   <div className="flex flex-col gap-1">
                     <Badge variant="outline" className="w-fit text-xs">Email</Badge>
-                    <a href="mailto:ben@varro.com.au" className="text-primary hover:underline font-medium flex items-center gap-2">
+                    <a href="mailto:hello@varro.com.au" className="text-primary hover:underline font-medium flex items-center gap-2">
                       <Mail className="h-4 w-4" />
-                      ben@varro.com.au
-                    </a>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <Badge variant="outline" className="w-fit text-xs">LinkedIn</Badge>
-                    <a href="https://linkedin.com/in/ben-naparstek" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline font-medium flex items-center gap-2">
-                      <ExternalLink className="h-4 w-4" />
-                      linkedin.com/in/ben-naparstek
+                      hello@varro.com.au
                     </a>
                   </div>
                   <div className="flex flex-col gap-1">

@@ -12,40 +12,40 @@ const OurProcess = () => {
       icon: MessageCircle,
       title: "Initial Discussion",
       timeframe: "Week 1",
-      description: "Confidential, no obligation assessment of fit and preliminary valuation discussion",
-      details: "We start with a confidential conversation to understand your business, goals, and timeline. This includes a preliminary assessment of fit and an initial valuation discussion.",
+      description: "Confidential assessment and preliminary valuation",
+      details: "We understand your business, goals, and timeline. Initial fit assessment and valuation discussion.",
       color: "bg-blue-500/10 text-blue-600"
     },
     {
       icon: Search,
       title: "Due Diligence", 
       timeframe: "2-4 weeks",
-      description: "Comprehensive but respectful review of financials, operations, and market position",
-      details: "Our due diligence process is thorough but respectful of your time and operations. We review financials, operations, market position, and growth opportunities.",
+      description: "Review financials, operations, and market position",
+      details: "Thorough but respectful review of your business fundamentals and growth opportunities.",
       color: "bg-purple-500/10 text-purple-600"
     },
     {
       icon: Handshake,
       title: "Partnership Design",
       timeframe: "1-2 months", 
-      description: "Flexible arrangements including earnouts, consulting agreements, and transition support",
-      details: "We design flexible partnership arrangements that work for both parties, including earnouts, consulting agreements, and transition support to ensure a smooth handover.",
+      description: "Flexible arrangements and transition support",
+      details: "Design partnership terms including earnouts, consulting agreements, and handover support.",
       color: "bg-green-500/10 text-green-600"
     },
     {
       icon: RefreshCw,
       title: "Transition",
       timeframe: "2-3 months",
-      description: "Careful handover process respecting existing relationships, team and culture",
-      details: "The transition process is carefully managed to respect existing relationships, maintain team morale, and preserve your company's culture and values.",
+      description: "Careful handover respecting team and culture",
+      details: "Smooth transition that preserves relationships, team morale, and company values.",
       color: "bg-orange-500/10 text-orange-600"
     },
     {
       icon: TrendingUp,
       title: "Long-Term Growth",
       timeframe: "Ongoing",
-      description: "Investments and initiatives to accelerate growth while maintaining organisational DNA",
-      details: "We invest in initiatives to accelerate growth while maintaining your organization's DNA. Our focus is on sustainable, long-term value creation.",
+      description: "Growth investments while maintaining your DNA",
+      details: "Strategic investments to accelerate growth while preserving what makes your business unique.",
       color: "bg-red-500/10 text-red-600"
     }
   ];

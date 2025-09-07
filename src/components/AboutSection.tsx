@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import AustraliaMap from './AustraliaMap';
 import { TrendingUp, Users, Award, Building, CheckCircle } from 'lucide-react';
 
 const AboutSection = () => {
@@ -22,8 +23,11 @@ const AboutSection = () => {
   ];
 
   return (
-    <section id="about-us" className="py-16 md:py-24 px-6 md:px-12 bg-muted/30">
-      <div className="max-w-6xl mx-auto">
+    <section id="about-us" className="relative py-16 md:py-24 px-6 md:px-12 bg-muted/30">
+      {/* Australia Map Background */}
+      <AustraliaMap />
+      
+      <div className="relative z-10 max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold text-foreground mb-6">About Us</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">

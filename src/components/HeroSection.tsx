@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import InvestmentPipeline from './InvestmentPipeline';
+import AustraliaMap from './AustraliaMap';
 import { Loader } from 'lucide-react';
 
 const HeroSection = () => {
@@ -15,6 +16,9 @@ const HeroSection = () => {
 
   return (
     <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
+      {/* Australia Map Background */}
+      <AustraliaMap />
+      
       {/* Cosmic particle effect (background dots) */}
       <div className="absolute inset-0 cosmic-grid opacity-30"></div>
       
